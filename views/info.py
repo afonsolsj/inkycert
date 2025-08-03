@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import base64
 from translation import translations
 
 #Variaveis
@@ -20,12 +19,9 @@ tab1, tab2, tab3 = st.tabs([t["info1"], t["info2"], t["info3"]])
 with tab1:
     st.badge("PDF", icon=":material/picture_as_pdf:", color="blue")
     st.info(t["info_pdf"])
-    with open(pdf_path, "rb") as f:
-        base64_pdf = base64.b64encode(f.read()).decode("utf-8")
-    pdf_display = f'''<iframe src="data:application/pdf;base64,{base64_pdf}"width="100%" height="500" type="application/pdf"></iframe>'''
-    st.markdown(pdf_display, unsafe_allow_html=True)
+    st.image("assets/images/image12.png")
     st.text("")
-    st.badge("Planilha", icon=":material/csv:", color="green")
+    st.badge(t["spreadsheet"], icon=":material/csv:", color="green")
     st.success(t["info_spreadsheet"])
     st.dataframe(df, use_container_width=True)
 
