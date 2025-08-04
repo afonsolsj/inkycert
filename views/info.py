@@ -7,7 +7,7 @@ df = pd.read_csv("assets/files/Modelo de Planilha.csv")
 pdf_path = "assets/files/Certificado.pdf"
 
 #Tradução
-lang = st.session_state.get("lang", "en-US")
+lang = st.session_state.get("lang", "English")
 t = translations[lang]
 
 #Interface

@@ -12,9 +12,10 @@ st.sidebar.selectbox(t["language"], ["English", "Português", "Espanõl", "Fran�
 st.sidebar.markdown(f"""<div style="text-align: center; font-size: 12px;">{t["footer"]}</div>""", unsafe_allow_html=True)
 
 main_page = st.Page(page='views/main.py', title=t["home_title"], icon=':material/home:', default=True)
-kofi_page = st.Page(page='views/kofi.py', title="Ko-fi", icon=':material/coffee:')
+create_form_page = st.Page(page='views/create_form.py', title=t["create_form"], icon=':material/signature:')
 info_page = st.Page(page='views/info.py', title=t["info"], icon=':material/help:')
+kofi_page = st.Page(page='views/kofi.py', title="Ko-fi", icon=':material/coffee:')
 
-pg = st.navigation(pages=[main_page, info_page, kofi_page])
+pg = st.navigation(pages=[main_page, create_form_page, info_page, kofi_page])
 
 pg.run()

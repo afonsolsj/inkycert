@@ -96,7 +96,7 @@ def parse_da(da):
     return font_name, font_size, font_color
 
 #Tradução
-lang = st.session_state.get("lang", "en-US")
+lang = st.session_state.get("lang", "English")
 t = translations[lang]
 
 #Interface
