@@ -15,15 +15,15 @@ from fillpdf import fillpdfs
 import pdfrw
 
 # Variáveis
-if "page" not in st.session_state:
-    st.session_state.page = 1
+if "page2" not in st.session_state:
+    st.session_state.page2 = 1
 if "uploaded_pdf_path" not in st.session_state:
     st.session_state.uploaded_pdf_path = None
 if "field_created" not in st.session_state:
     st.session_state.field_created = False
 if "temp_pdf_result" not in st.session_state:
     st.session_state.temp_pdf_result = None
-total_pages = 3
+total_pages2 = 3
 transparent = Color(0, 0, 0, alpha=0)
 random_name = str(uuid.uuid4())
 
@@ -36,20 +36,20 @@ st.title('InkyCert')
 st.subheader(t["create_form"])
 st.markdown(t["text_form"])
 st.warning(t["warning_form"])
-st.progress(st.session_state.page / total_pages)
+st.progress(st.session_state.page2 / total_pages2)
 
 # Navegação
 def next_page():
-    st.session_state.page += 1
+    st.session_state.page2 += 1
 def prev_page():
-    st.session_state.page -= 1
+    st.session_state.page2 -= 1
 
 # Página 1 - Inicio do programa
-if st.session_state.page == 1:
+if st.session_state.page2 == 1:
     st.button(t["start"], on_click=next_page, type="primary", icon=":material/chevron_forward:")
 
 # Página 2 - Upload do PDF
-elif st.session_state.page == 2:
+elif st.session_state.page2 == 2:
     template = st.file_uploader(t["selectPDF"], type=["pdf"], accept_multiple_files=False)
     if template:
         with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp_file:
@@ -70,7 +70,7 @@ elif st.session_state.page == 2:
         st.button(t["backbutton"], on_click=prev_page, icon=":material/chevron_backward:")
 
 # Página 3 - Seleção da área e criação do campo
-elif st.session_state.page == 3:
+elif st.session_state.page2 == 3:
     pdf_path = st.session_state.uploaded_pdf_path
 
     # Abre o PDF e gera a imagem da primeira página em 300 dpi
@@ -186,7 +186,7 @@ elif st.session_state.page == 3:
                     icon=":material/download:",
                 )
             if st.button(t["resetbutton"], icon=":material/refresh:"):
-                st.session_state.page = 1
+                st.session_state.page2 = 1
                 st.session_state.field_created = False
                 if st.session_state.temp_pdf_result:
                     try:
