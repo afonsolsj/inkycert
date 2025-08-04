@@ -43,7 +43,7 @@ translations = {
         "sbs9": "The button will change to **'Please wait...'** while the process is running.",
         "sbs10": "At the end, the **'Download ZIP file'** button will be displayed, containing all the files in PDF format.",
         "under_construction": "Under construction.",
-        "warning_form": "This code is under development and may not work as expected. Please report any issues.",
+        "warning_form": "This code is under development and may not work as expected. Please use the desktop browser.",
         "text_form": "If your PDF doesn’t have any form fields yet, you can add them here and download the file ready to be filled out digitally in the main program."
     },
     "Português": {
@@ -90,7 +90,7 @@ translations = {
         "sbs9": "O botão mudará para **'Aguarde...'** enquanto o processo estiver em andamento.",
         "sbs10": "Ao final, será exibido o botão **'Baixar arquivo ZIP'**, contendo todos os arquivos no formato PDF.",
         "under_construction": "Em construção.",
-        "warning_form": "Este código está em desenvolvimento e pode não funcionar como esperado. Por favor, relate quaisquer problemas.",
+        "warning_form": "Este código está em desenvolvimento e pode não funcionar como esperado. Por favor, use o navegador de desktop.",
         "text_form": "Se o seu PDF ainda não possui campos de formulário, você pode adicioná-los aqui e baixar o arquivo pronto para ser preenchido digitalmente no programa principal."
     },
     "中文": {
@@ -137,7 +137,7 @@ translations = {
         "sbs9": "在流程进行中，按钮将变为 **“请稍候...”**。",
         "sbs10": "完成后，将显示 **“下载 ZIP 文件”** 按钮，包含所有 PDF 文件。",
         "under_construction": "建设中。",
-        "warning_form": "此代码正在开发中，可能无法按预期工作。请报告任何问题。",
+        "warning_form": "此代码正在开发中，可能无法按预期工作。请使用桌面浏览器。",
         "text_form": "如果您的 PDF 还没有表单字段，您可以在这里添加它们，并下载准备好在主程序中进行数字填写的文件。"
     },
     "Français": {
@@ -184,7 +184,7 @@ translations = {
         "sbs9": "Le bouton passera à **« Veuillez patienter... »** pendant le traitement.",
         "sbs10": "À la fin, le bouton **« Télécharger le fichier ZIP »** sera affiché, contenant tous les fichiers PDF.",
         "under_construction": "En construction.",
-        "warning_form": "Ce code est en cours de développement et peut ne pas fonctionner comme prévu. Veuillez signaler tout problème.",
+        "warning_form": "Ce code est en cours de développement et peut ne pas fonctionner comme prévu. Veuillez utiliser le navigateur de bureau.",
         "text_form": "Si votre PDF ne contient pas encore de champs de formulaire, vous pouvez les ajouter ici et télécharger le fichier prêt à être rempli numériquement dans le programme principal."
     },
     "Italiano": {
@@ -231,7 +231,7 @@ translations = {
         "sbs9": "Il pulsante cambierà in **'Attendere prego...'** durante l'elaborazione.",
         "sbs10": "Al termine, verrà visualizzato il pulsante **'Scarica file ZIP'**, contenente tutti i file PDF.",
         "under_construction": "In costruzione.",
-        "warning_form": "Questo codice è in fase di sviluppo e potrebbe non funzionare come previsto. Si prega di segnalare eventuali problemi.",
+        "warning_form": "Questo codice è in fase di sviluppo e potrebbe non funzionare come previsto. Si prega di utilizzare il browser di desktop.",
         "text_form": "Se il tuo PDF non ha ancora campi di modulo, puoi aggiungerli qui e scaricare il file pronto per essere compilato digitalmente nel programma principale."
     },
     "Espanõl": {
@@ -278,7 +278,7 @@ translations = {
         "sbs9": "El botón cambiará a **'Por favor, espere...'** mientras se procesa.",
         "sbs10": "Al finalizar, se mostrará el botón **'Descargar archivo ZIP'**, que contiene todos los archivos PDF.",
         "under_construction": "En construcción.",
-        "warning_form": "Este código está en desarrollo y puede no funcionar como se espera. Por favor, informe cualquier problema.",
+        "warning_form": "Este código está en desarrollo y puede no funcionar como se espera. Por favor, use el navegador de escritorio.",
         "text_form": "Si tu PDF aún no tiene campos de formulario, puedes agregarlos aquí y descargar el archivo listo para ser completado digitalmente en el programa principal."
     },
     "Deutsch": {
@@ -325,7 +325,7 @@ translations = {
         "sbs9": "Die Schaltfläche ändert sich zu **'Bitte warten...'**, während der Vorgang läuft.",
         "sbs10": "Am Ende wird die Schaltfläche **'ZIP-Datei herunterladen'** angezeigt, die alle PDF-Dateien enthält.",
         "under_construction": "Im Aufbau.",
-        "warning_form": "Dieser Code befindet sich in der Entwicklung und funktioniert möglicherweise nicht wie erwartet. Bitte melden Sie eventuelle Probleme.",
+        "warning_form": "Dieser Code befindet sich in der Entwicklung und funktioniert möglicherweise nicht wie erwartet. Bitte verwenden Sie den Desktop-Browser.",
         "text_form": "Wenn Ihr PDF noch keine Formularfelder hat, können Sie diese hier hinzufügen und die Datei herunterladen, die bereit ist, im Hauptprogramm digital ausgefüllt zu werden."
     },
     "日本語": {
@@ -372,7 +372,7 @@ translations = {
         "sbs9": "処理中はボタンが **「お待ちください...」** に変わります。",
         "sbs10": "完了すると、すべてのPDFファイルを含む **「ZIPファイルをダウンロード」** ボタンが表示されます。",
         "under_construction": "工事中。",
-        "warning_form": "このコードは開発中であり、期待通りに動作しない可能性があります。問題があれば報告してください。",
+        "warning_form": "このコードは開発中であり、期待通りに動作しない可能性があります。デスクトップブラウザを使用してください。",
         "text_form": "PDFにフォームフィールドがまだない場合は、ここで追加して、メインプログラムでデジタル入力の準備ができたファイルをダウンロードできます。"
     },
     "한국어": {
@@ -419,7 +419,7 @@ translations = {
         "sbs9": "처리 중에는 버튼이 **'잠시만 기다려 주세요...'**로 변경됩니다.",
         "sbs10": "완료되면 모든 PDF 파일이 포함된 **'ZIP 파일 다운로드'** 버튼이 표시됩니다.",
         "under_construction": "공사 중.",
-        "warning_form": "이 코드는 개발 중이며 예상대로 작동하지 않을 수 있습니다. 문제를 보고해 주세요.",
+        "warning_form": "이 코드는 개발 중이며 예상대로 작동하지 않을 수 있습니다. 데스크톱 브라우저를 사용해 주세요.",
         "text_form": "PDF에 아직 양식 필드가 없는 경우, 여기에서 추가하고 메인 프로그램에서 디지털 입력을 준비한 파일을 다운로드할 수 있습니다."
     }
 }
