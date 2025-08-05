@@ -11,5 +11,6 @@ You can try **InkyCert** online here:
 [🔗 Inkycert](https://inkycert.streamlit.app)  
 
 ### 💖 Support
+
 If this project helped you, consider supporting via Ko-fi:
 [☕ Support on Ko-fi](https://ko-fi.com/afonsosaraiva)
