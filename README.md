@@ -12,5 +12,5 @@ You can try **InkyCert** online here:
 
 ### 💖 Support
 
-If this project helped you, consider supporting via Ko-fi:
+If this project helped you, consider supporting via Ko-fi:  
 [☕ Support on Ko-fi](https://ko-fi.com/afonsosaraiva)
