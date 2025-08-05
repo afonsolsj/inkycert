@@ -8,4 +8,8 @@ Using a PDF file with field forms, a csv spreadsheet, you can fill multiple PDFs
 ### 🌐 Application
 
 You can try **InkyCert** online here:  
-[🔗 https://inkycert.streamlit.app](https://inkycert.streamlit.app)  
+[🔗 Inkycert](https://inkycert.streamlit.app)  
+
+### 💖 Support
+If this project helped you, consider supporting via Ko-fi:
+[☕ Support on Ko-fi](https://ko-fi.com/afonsosaraiva)
